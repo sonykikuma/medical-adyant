@@ -14,7 +14,7 @@ const NavbarMenu = () => {
         // bg="light"
         expand="lg"
         className="shadow-sm mb-3"
-        style={{ backgroundColor: "#a38856" }}
+        style={{ backgroundColor: "#a38856", color: "white" }}
       >
         <Container>
           <Navbar.Brand href="/">
@@ -28,7 +28,10 @@ const NavbarMenu = () => {
             style={{ backgroundColor: "#a38856" }}
           >
             <Offcanvas.Header closeButton>
-              <Offcanvas.Title id="offcanvasNavbarLabel-expand-lg">
+              <Offcanvas.Title
+                id="offcanvasNavbarLabel-expand-lg"
+                className="text-white"
+              >
                 Menu
               </Offcanvas.Title>
             </Offcanvas.Header>
