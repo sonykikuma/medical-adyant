@@ -8,7 +8,7 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import HerbsList from "./components/HerbsList";
 import HeroSection from "./components/HeroSection";
-import NavBarMenu from "./components/NavBarMenu";
+import NavbarMenu from "./components/NavbarMenu";
 
 const Intro = () => (
   <Container className="my-4">
@@ -35,7 +35,7 @@ function App() {
       {/* // <div className="d-flex"> */}
       {/* <Sidebar /> */}
       {/* // <div className="" style={{ flex: 1 }}> */}
-      <NavBarMenu />
+      <NavbarMenu />
       <Header />
       <Intro />
       <HeroSection />

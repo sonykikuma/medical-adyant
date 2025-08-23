@@ -1,6 +1,8 @@
 import React from "react";
 import { Container, Row, Col, Card } from "react-bootstrap";
-import NavbarMenu from "../components/NavBarMenu";
+// import NavbarMenu from "../components/NavbarMenu";
+import NavbarMenu from "../components/NavbarMenu";
+
 import { ListGroup } from "react-bootstrap";
 import Footer from "../components/Footer";
 
