@@ -1,8 +1,8 @@
 import React from "react";
 import { Container, Row, Col, Card } from "react-bootstrap";
-import NavbarMenu from "../NavBarMenu";
+import NavbarMenu from "../components/NavBarMenu";
 import { ListGroup } from "react-bootstrap";
-import Footer from "../Footer";
+import Footer from "../components/Footer";
 
 const About = () => {
   return (
