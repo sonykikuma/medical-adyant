@@ -26,7 +26,7 @@ const Footer = () => (
         <Col md={4} className="mb-3">
           <h5 className="text-uppercase">Contact</h5>
           <p className="mb-1">Dr. Prabhu Tiwari</p>
-          <p className="mb-1">📍 Bangalore, India</p>
+          <p className="mb-1">📍 Jabalpur, India</p>
           <p className="mb-1">📞 +91 98765 43210</p>
           <p className="mb-0">✉️ contact@adyantayurveda.com</p>
         </Col>
@@ -73,7 +73,7 @@ const Footer = () => (
         {/* Copyright */}
         <Col md={4} className="mb-3 text-md-end text-center">
           <h5 className="text-uppercase">© {new Date().getFullYear()}</h5>
-          <p className="mb-0">Adyant Ayurveda. All rights reserved.</p>
+          <p className="mb-0">Dhanvantari Rishi . All rights reserved.</p>
         </Col>
       </Row>
     </Container>

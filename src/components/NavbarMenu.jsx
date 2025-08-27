@@ -18,7 +18,16 @@ const NavbarMenu = () => {
       >
         <Container>
           <Navbar.Brand href="/">
-            <span>🌿 </span>Ayurveda
+            <span>
+              <img
+                src="/logo2.png"
+                alt=""
+                width="30"
+                height="30"
+                className="rounded-3"
+              />{" "}
+            </span>
+            Dhanvantari चिकित्सा
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="offcanvasNavbar-expand-lg" />
           <Navbar.Offcanvas
@@ -40,20 +49,16 @@ const NavbarMenu = () => {
                 <Nav.Link href="/">Home</Nav.Link>
                 <Nav.Link href="/">Specialities</Nav.Link>
                 <Nav.Link href="/">Yoga</Nav.Link>
-                {/* <Nav.Link href="#">Swarn Bindu Prashana</Nav.Link> */}
                 <NavDropdown
                   title="About Us"
                   id="about-dropdown"
                   menuVariant="dark"
                 >
                   <NavDropdown.Item href="/about">Our Mission</NavDropdown.Item>
-                  <NavDropdown.Item href="/about">Team</NavDropdown.Item>
-                  <NavDropdown.Item href="/about">History</NavDropdown.Item>
+                  <NavDropdown.Item href="/about">Contact Us</NavDropdown.Item>
                 </NavDropdown>
 
-                {/* <Nav.Link href="#">About Us</Nav.Link> */}
                 <Nav.Link href="/">Shop</Nav.Link>
-                {/* <Nav.Link href="#">Our Branches</Nav.Link> */}
                 <NavDropdown
                   title="Our Branches"
                   id="branches-dropdown"
@@ -67,6 +72,7 @@ const NavbarMenu = () => {
                 <Nav.Link href="/">Blog</Nav.Link>
                 <Nav.Link href="/">Book Appointment</Nav.Link>
               </Nav>
+              <hr className="sidebar-divider" />
             </Offcanvas.Body>
           </Navbar.Offcanvas>
         </Container>

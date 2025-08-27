@@ -9,6 +9,12 @@ import Footer from "./components/Footer";
 import HerbsList from "./components/HerbsList";
 import HeroSection from "./components/HeroSection";
 import NavbarMenu from "./components/NavbarMenu";
+import Slider from "./components/Slider";
+import Treatments from "./components/Treatments";
+import WhyAdyant from "./components/WhyAdyant";
+import VideoSection from "./components/VideoSection";
+import GoogleReviews from "./components/GoogleReviews";
+import ContactAddress from "./components/ContactAddress";
 
 const Intro = () => (
   <Container className="my-4">
@@ -32,14 +38,26 @@ const Section = ({ title, text }) => (
 function App() {
   return (
     <>
-      {/* // <div className="d-flex"> */}
-      {/* <Sidebar /> */}
-      {/* // <div className="" style={{ flex: 1 }}> */}
       <NavbarMenu />
-      <Header />
-      <Intro />
-      <HeroSection />
-      <Container>
+      <Slider />
+      <Treatments />
+      <WhyAdyant />
+      <VideoSection />
+      <GoogleReviews />
+      <ContactAddress />
+      <Footer />
+    </>
+  );
+}
+
+export default App;
+
+{
+  /*<Intro />
+      <HeroSection /> */
+}
+{
+  /* <Container>
         <Row>
           <Col md={12}>
             <Section
@@ -65,12 +83,5 @@ function App() {
             <HerbsList />
           </Col>
         </Row>
-      </Container>
-      <Footer />
-      {/* </div>
-    </div> */}
-    </>
-  );
+      </Container> */
 }
-
-export default App;

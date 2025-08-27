@@ -5,6 +5,8 @@ import NavbarMenu from "../components/NavbarMenu";
 
 import { ListGroup } from "react-bootstrap";
 import Footer from "../components/Footer";
+import TreatmentsSection from "../components/TreatmentsSection";
+import DoctorsSection from "../components/DoctorsSection";
 
 const About = () => {
   return (
@@ -15,8 +17,8 @@ const About = () => {
         <Row className="mb-4">
           <Col>
             <h2 className="text-center text-success fw-bold">
-              Adyant Ayurveda: Best Ayurvedic Doctors in Bangalore | Ayurveda
-              Clinic Bangalore
+              Dhanvantari Rishi: Best Ayurvedic Doctors in Central India |
+              Dhanvantari Clinic Jabalpur
             </h2>
           </Col>
         </Row>
@@ -25,10 +27,10 @@ const About = () => {
         <Card className="mb-4 shadow-sm">
           <Card.Body>
             <Card.Title className="text-success">
-              About Adyant Ayurveda
+              About Dhanvantari Rishi
             </Card.Title>
             <Card.Text>
-              Adyant Ayurveda is a leading chain of Ayurvedic clinics in
+              Dhanvantari Rishi is a leading chain of Ayurvedic clinics in
               Bangalore, renowned for combining ancient Ayurvedic wisdom with
               modern healthcare practices. With over{" "}
               <strong>25 years of expertise</strong>, we are committed to
@@ -37,26 +39,15 @@ const About = () => {
             <Card.Text>
               Our <strong>ISO 9001</strong> and <strong>ISO 10002</strong>{" "}
               certifications reflect our dedication to quality and patient
-              satisfaction. All Adyant Ayurveda clinics are
+              satisfaction. All Dhanvantari Rishi clinics are
               <strong> KPME licensed</strong> and recognized, ensuring
               compliance with the highest standards of medical practice.
             </Card.Text>
             <Card.Text>
-              In 2024, Adyant Ayurveda achieved two prestigious awards: These
+              In 2024, Dhanvantari Rishi achieved two prestigious awards: These
               awards reflect our unwavering commitment to providing authentic
               and effective Ayurvedic care.
             </Card.Text>
-
-            {/* <ListGroup variant="flush">
-              <ListGroup.Item>
-                <strong>Ayush Award:</strong> Honored as “Best Ayurvedic Clinic
-                in Bangalore.”
-              </ListGroup.Item>
-              <ListGroup.Item>
-                <strong>Times Health Award:</strong> Recognized for “Excellence
-                in Panchakarma treatment.”
-              </ListGroup.Item>
-            </ListGroup> */}
 
             <ul
               className="ps-3 mb-2"
@@ -68,7 +59,7 @@ const About = () => {
             >
               <li>
                 <strong>Ayush Award:</strong> Honored as “Best Ayurvedic Clinic
-                in Bangalore.”
+                in India.”
               </li>
               <li>
                 <strong>Times Health Award:</strong> Recognized for “Excellence
@@ -90,9 +81,13 @@ const About = () => {
             </Card.Text>
           </Card.Body>
         </Card>
-
+        <img
+          src="https://media.gettyimages.com/id/89738773/photo/indian-doctors-along-with-a-lab-technican-check-samples-collected-from-suspected-swine-flu.jpg?s=612x612&w=0&k=20&c=pENkryMn3cAnn3baUuqNSNF5GTpqARlpR3sohlwpDOE="
+          alt="office image"
+          width="100%"
+        />
         {/* Why Choose Us */}
-        <Card className="mb-4 shadow-sm">
+        <Card className="my-4 shadow-sm">
           <Card.Body>
             <Card.Title className="text-success">
               Why Choose Adyant Ayurveda?
@@ -123,7 +118,8 @@ const About = () => {
         </Card>
 
         {/* Specialized Treatments */}
-        <Card className="mb-4 shadow-sm">
+        <TreatmentsSection />
+        {/* <Card className="mb-4 shadow-sm">
           <Card.Body>
             <Card.Title className="text-success">
               Specialized Ayurvedic Treatments at Adyant Ayurveda
@@ -143,7 +139,9 @@ const About = () => {
               <li>And many more...</li>
             </ul>
           </Card.Body>
-        </Card>
+        </Card> */}
+
+        <DoctorsSection />
       </Container>
       <Footer />
     </>
