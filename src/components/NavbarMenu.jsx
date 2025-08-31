@@ -60,7 +60,7 @@ const NavbarMenu = () => {
                   </NavDropdown.Item>
                 </NavDropdown>
 
-                <Nav.Link href="/">Shop</Nav.Link>
+                {/* <Nav.Link href="/">Shop</Nav.Link>
                 <NavDropdown
                   title="Our Branches"
                   id="branches-dropdown"
@@ -69,7 +69,7 @@ const NavbarMenu = () => {
                   <NavDropdown.Item href="/">Bangalore</NavDropdown.Item>
                   <NavDropdown.Item href="/">Jabalpur</NavDropdown.Item>
                   <NavDropdown.Item href="/">Delhi</NavDropdown.Item>
-                </NavDropdown>
+                </NavDropdown> */}
 
                 <Nav.Link href="/">Blog</Nav.Link>
                 <Nav.Link href="/">Book Appointment</Nav.Link>
