@@ -67,8 +67,18 @@ const Footer = () => (
 
         {/* Copyright */}
         <Col md={4} className="mb-3 text-md-end text-center">
-          <h5 className="text-uppercase">© {new Date().getFullYear()}</h5>
-          <p className="mb-0">Dhanvantari चिकित्सा . All rights reserved.</p>
+          <img
+            src="./logo2.png"
+            alt="logo"
+            width="200"
+            height="180"
+            className="rounded-4"
+          />
+          {/* <h5 className="text-uppercase pt-3">© {new Date().getFullYear()} </h5> */}
+          <p className="mb-0 pt-3">
+            <strong>© {new Date().getFullYear()}</strong> Dhanvantari चिकित्सा .
+            All rights reserved.
+          </p>
         </Col>
       </Row>
     </Container>
