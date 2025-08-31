@@ -11,13 +11,13 @@ const VideoSection = () => {
       <Row className="justify-content-center">
         <Col md={6} className="mb-3">
           <video width="100%" controls>
-            <source src="/demo.mp4" type="video/mp4" />
+            <source src="/demo1.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
         </Col>
         <Col md={6} className="mb-3">
           <video width="100%" controls>
-            <source src="/demo.mp4" type="video/mp4" />
+            <source src="/demo1.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
 
