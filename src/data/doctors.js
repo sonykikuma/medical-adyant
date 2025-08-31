@@ -6,7 +6,7 @@ const doctors = [
       "Senior Cardiologist- MD, DM Cardiology, AIIMS New Delhi(Gold medalist)",
     branch: "Dhanvantari चिकित्सा",
     experience: "24+ years",
-    image: "./dr.akhilesh.jpeg",
+    image: "./dr.akhilesh1.jpeg",
     // "https://static.vecteezy.com/system/resources/thumbnails/026/375/249/small_2x/ai-generative-portrait-of-confident-male-doctor-in-white-coat-and-stethoscope-standing-with-arms-crossed-and-looking-at-camera-photo.jpg",
     description:
       "Dr. Akhilesh Dubey is a highly esteemed and best rated practitioner, recognized as one of the top doctors in Jabalpur. With over 24 years of experience, he has built a reputation for excellence and commitment to holistic health. He is a reputed member of FESC, FSCAE. He is consultant - Senior International Cardiologist. He is director - department of Cardiology. ",

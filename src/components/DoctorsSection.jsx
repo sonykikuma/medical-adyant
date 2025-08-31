@@ -69,7 +69,7 @@ const DoctorsSection = () => {
                 src={doc.image}
                 alt={doc.name}
                 className="rounded"
-                style={{ maxHeight: "280px", objectFit: "cover" }}
+                style={{ objectFit: "cover" }}
               />
               <Card.Body>
                 <Card.Title>{doc.name}</Card.Title>
