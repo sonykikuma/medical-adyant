@@ -1,14 +1,3 @@
-// import React from "react";
-
-// const Footer = () => (
-//   <footer className="bg-light text-center py-3 mt-4">
-//     <p className="mb-0">
-//       Embrace Ayurveda and embark on a journey to a strong, resilient heart. 🌿
-//     </p>
-//   </footer>
-// );
-
-// export default Footer;
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import {
@@ -26,9 +15,15 @@ const Footer = () => (
         <Col md={4} className="mb-3">
           <h5 className="text-uppercase">Contact</h5>
           <p className="mb-1">Dr. Prabhu Tiwari</p>
-          <p className="mb-1">📍 Jabalpur, India</p>
+          <p className="mb-1">
+            📍 Main Road Kundam Tehsil <br /> Kundam Village Sadafal Sadalfal
+            Kundam
+          </p>
+          <p className="mb-1"> Jabalpur(Madhya Pradesh 483110), India</p>
+          <p className="mb-1">📞 +9192442 85921</p>
+
           <p className="mb-1">📞 +91 98765 43210</p>
-          <p className="mb-0">✉️ contact@adyantayurveda.com</p>
+          <p className="mb-0">✉️ dhanvantarichikitsha@gmail.com</p>
         </Col>
 
         {/* Quick Links */}
@@ -73,7 +68,7 @@ const Footer = () => (
         {/* Copyright */}
         <Col md={4} className="mb-3 text-md-end text-center">
           <h5 className="text-uppercase">© {new Date().getFullYear()}</h5>
-          <p className="mb-0">Dhanvantari Rishi . All rights reserved.</p>
+          <p className="mb-0">Dhanvantari चिकित्सा . All rights reserved.</p>
         </Col>
       </Row>
     </Container>

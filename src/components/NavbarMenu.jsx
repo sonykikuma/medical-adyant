@@ -55,7 +55,9 @@ const NavbarMenu = () => {
                   menuVariant="dark"
                 >
                   <NavDropdown.Item href="/about">Our Mission</NavDropdown.Item>
-                  <NavDropdown.Item href="/about">Contact Us</NavDropdown.Item>
+                  <NavDropdown.Item href="/contact">
+                    Contact Us
+                  </NavDropdown.Item>
                 </NavDropdown>
 
                 <Nav.Link href="/">Shop</Nav.Link>

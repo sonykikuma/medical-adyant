@@ -7,7 +7,7 @@ const WhyAdyant = () => {
       <Container>
         {/* Why Adyant Ayurveda */}
         <h2 className="fw-bold text-center mb-5" style={{ color: "#7a5c2e" }}>
-          Why Dhanvantari Rishi ?
+          Why Dhanvantari चिकित्सा ?
         </h2>
         <Row className="justify-content-center">
           <Col md={10}>

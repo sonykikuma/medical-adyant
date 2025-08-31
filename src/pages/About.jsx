@@ -1,12 +1,12 @@
 import React from "react";
 import { Container, Row, Col, Card } from "react-bootstrap";
-// import NavbarMenu from "../components/NavbarMenu";
 import NavbarMenu from "../components/NavbarMenu";
 
 import { ListGroup } from "react-bootstrap";
 import Footer from "../components/Footer";
 import TreatmentsSection from "../components/TreatmentsSection";
 import DoctorsSection from "../components/DoctorsSection";
+import AdvisorsSection from "../components/AdvisorsSection";
 
 const About = () => {
   return (
@@ -17,7 +17,7 @@ const About = () => {
         <Row className="mb-4">
           <Col>
             <h2 className="text-center text-success fw-bold">
-              Dhanvantari Rishi: Best Ayurvedic Doctors in Central India |
+              Dhanvantari चिकित्सा: Best Ayurvedic Doctors in Central India |
               Dhanvantari Clinic Jabalpur
             </h2>
           </Col>
@@ -27,26 +27,26 @@ const About = () => {
         <Card className="mb-4 shadow-sm">
           <Card.Body>
             <Card.Title className="text-success">
-              About Dhanvantari Rishi
+              About Dhanvantari चिकित्सा
             </Card.Title>
             <Card.Text>
-              Dhanvantari Rishi is a leading chain of Ayurvedic clinics in
-              Bangalore, renowned for combining ancient Ayurvedic wisdom with
-              modern healthcare practices. With over{" "}
+              Dhanvantari चिकित्सा is a leading Ayurvedic clinic in Jabalpur,
+              renowned for combining ancient Ayurvedic wisdom with modern
+              healthcare practices. With over{" "}
               <strong>25 years of expertise</strong>, we are committed to
               providing authentic and effective Ayurvedic treatments.
             </Card.Text>
             <Card.Text>
               Our <strong>ISO 9001</strong> and <strong>ISO 10002</strong>{" "}
               certifications reflect our dedication to quality and patient
-              satisfaction. All Dhanvantari Rishi clinics are
+              satisfaction. All Dhanvantari चिकित्सा clinics are
               <strong> KPME licensed</strong> and recognized, ensuring
               compliance with the highest standards of medical practice.
             </Card.Text>
             <Card.Text>
-              In 2024, Dhanvantari Rishi achieved two prestigious awards: These
-              awards reflect our unwavering commitment to providing authentic
-              and effective Ayurvedic care.
+              In 2024, Dhanvantari चिकित्सा achieved two prestigious awards:
+              These awards reflect our unwavering commitment to providing
+              authentic and effective Ayurvedic care.
             </Card.Text>
 
             <ul
@@ -90,7 +90,7 @@ const About = () => {
         <Card className="my-4 shadow-sm">
           <Card.Body>
             <Card.Title className="text-success">
-              Why Choose Adyant Ayurveda?
+              Why Choose Dhanvantari चिकित्सा?
             </Card.Title>
             <ul className="ps-3" style={{ listStyle: "none" }}>
               <li>
@@ -117,9 +117,23 @@ const About = () => {
           </Card.Body>
         </Card>
 
-        {/* Specialized Treatments */}
+        <AdvisorsSection />
         <TreatmentsSection />
-        {/* <Card className="mb-4 shadow-sm">
+
+        <DoctorsSection />
+      </Container>
+      <Footer />
+    </>
+  );
+};
+
+export default About;
+
+{
+  /* Specialized Treatments */
+}
+{
+  /* <Card className="mb-4 shadow-sm">
           <Card.Body>
             <Card.Title className="text-success">
               Specialized Ayurvedic Treatments at Adyant Ayurveda
@@ -139,13 +153,5 @@ const About = () => {
               <li>And many more...</li>
             </ul>
           </Card.Body>
-        </Card> */}
-
-        <DoctorsSection />
-      </Container>
-      <Footer />
-    </>
-  );
-};
-
-export default About;
+        </Card> */
+}
